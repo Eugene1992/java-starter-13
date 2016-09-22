@@ -55,22 +55,22 @@ public class HW_02 {
 //ex.8
         i1 = (s2 / s3) * (b1 / b2);
 //ex.9
-        int SwapVarA = 10;
-        int SwapVarB = 20;
-        int TempSwap;
-        System.out.println("\nSwap variables, method 1:\n A = " + SwapVarA + "    B = " + SwapVarB);
+        int swapVarA = 10;
+        int swapVarB = 20;
+        int tempSwap;
+        System.out.println("\nSwap variables, method 1:\n A = " + swapVarA + "    B = " + swapVarB);
 
-        TempSwap = SwapVarA;
-        SwapVarA = SwapVarB;
-        SwapVarB = TempSwap;
+        tempSwap = swapVarA;
+        swapVarA = swapVarB;
+        swapVarB = tempSwap;
 
-        System.out.println("Result:\n A = " + SwapVarA + "    B = " + SwapVarB);
+        System.out.println("Result:\n A = " + swapVarA + "    B = " + swapVarB);
 //ex.10
-        System.out.println("Swap variables, method 2:\n A = " + SwapVarA + "    B = " + SwapVarB);
+        System.out.println("Swap variables, method 2:\n A = " + swapVarA + "    B = " + swapVarB);
 
-        SwapVarA = SwapVarA + SwapVarB - (SwapVarB = SwapVarA);
+        swapVarA = swapVarA + swapVarB - (swapVarB = swapVarA);
 
-        System.out.println("Result:\n A = " + SwapVarA + "    B = " + SwapVarB);
+        System.out.println("Result:\n A = " + swapVarA + "    B = " + swapVarB);
 
 //ex. Bonus : Dec to Bin
 
