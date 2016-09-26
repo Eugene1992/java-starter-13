@@ -39,11 +39,15 @@ public class hw_4 {
 
         int x, y, z;
 
-        if ((a - b) < (a - c)) {
-            System.out.println(b);
-        } else if ((a - b) > (a - c)) {
-            System.out.println(c);
-        }
+        if (a > b && a > c) {
+            System.out.println("a = max");
+        } else if (a < b && a > c) {
+            System.out.println("b = max");
+        } else if (a > b && a < c) {
+            System.out.println("c = max");
+        } /**else if (a < b && a < c) {
+            System.out.println("c = max");
+        } */
 
 
 
