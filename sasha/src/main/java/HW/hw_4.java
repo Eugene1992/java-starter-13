@@ -37,7 +37,18 @@ public class hw_4 {
         Задано три переменных, найти и вывести на экран переменную с максимальным значением
         (значения всех переменных разные). */
 
-        int x, y, z;
+        if (a > b && a > c) {
+            System.out.println("a = max");
+        } else if (a < b && a > c) {
+            System.out.println("b = max");
+        } else if (a > b && a < c) {
+            System.out.println("c = max");
+        } 
+
+/** Задание 5
+        Задано четыре переменных, найти и вывести на экран вторую по величине. */
+        
+        int d;
 
         if (a > b && a > c) {
             System.out.println("a = max");
@@ -45,10 +56,7 @@ public class hw_4 {
             System.out.println("b = max");
         } else if (a > b && a < c) {
             System.out.println("c = max");
-        } /**else if (a < b && a < c) {
-            System.out.println("c = max");
-        } */
-
+        }
 
 
     }
