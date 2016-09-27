@@ -61,9 +61,7 @@ public class HW_5 {
         int x2 = 1;
         int k5 = 1;
 
-        System.out.println("x = " + x1);
-
-        for (int x3 = 1; k5 <= 19;
+        for (int x3 = 0; k5 <= 19;
 
             x3 = x2,
             x2 = x1 + x2,
