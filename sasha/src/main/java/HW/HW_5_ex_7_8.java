@@ -12,10 +12,12 @@ public class HW_5_ex_7_8 {
          введенного пользователем. */
 
         Scanner scan = new Scanner(System.in);
-        long n = scan.nextLong();
-        int i = scan.nextInt();
+        long a = scan.nextLong();
+        int n = scan.nextInt();
 
-        for (n = 1; n > 0; n = n * i)
-            System.out.println("n = " + n);
+        for (int i = 1; n >= i; ++i) {
+            a = a * i;
+        }                                           // Вопросы по месту скобки!
+            System.out.println("n! = " + a);
     }
 }
