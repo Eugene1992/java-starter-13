@@ -42,10 +42,10 @@ public class HW_5 {
         System.out.println("ex_4");
 
         int q = 2;
-        int n = 2;
+        //int n = 2;
         int k4 = 0;
 
-        Math.pow(q,(n - 1));
+        //Math.pow(q,(n - 1));
 
         for (int x = 2; k4 <= 19; x = x * q) {
             System.out.println("x = " + x);
