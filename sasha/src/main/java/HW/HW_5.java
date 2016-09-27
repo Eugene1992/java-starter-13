@@ -57,12 +57,19 @@ public class HW_5 {
 
         System.out.println("ex_5");
 
+        int x1 = 0;
         int x2 = 1;
-        int x3 = 1;
-        int k5 = 0;
+        int k5 = 1;
 
-        for (int x4 = 2; k5 <= 9; x4 = x3 + x2) {
-            System.out.println("x = " + x4);
+        System.out.println("x = " + x1);
+
+        for (int x3 = 1; k5 <= 19;
+
+            x3 = x2,
+            x2 = x1 + x2,
+            x1 = x3) {
+
+            System.out.println("x = " + x3);
             k5 = k5 + 1;
         }
         System.out.println("k5 = " + k5);
