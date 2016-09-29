@@ -19,17 +19,18 @@ public class SwitchExample {
             System.out.println("12");
         }
 
-        if (s.equals("10")) {
-            System.out.println("10");
-
-        } else if (s.equals("11")) {
-            System.out.println("11");
-
-        } else if (s.equals("12")) {
-            System.out.println("12");
-
-        } else {
-            System.out.println("Default");
+        switch (s) {
+            case "10":
+                System.out.println("10");
+                break;
+            case "11":
+                System.out.println("11");
+                break;
+            case "12":
+                System.out.println("12");
+                break;
+            default:
+                System.out.println("Default");
         }
     }
 }
