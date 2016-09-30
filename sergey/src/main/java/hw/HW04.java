@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Home work 04
  */
-public class HW_04 {
+public class HW04 {
     /**
      * main() function
      */

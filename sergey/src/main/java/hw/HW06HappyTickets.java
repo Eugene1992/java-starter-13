@@ -3,7 +3,7 @@ package hw;
 /**
  * Created by Serezha on 27.09.2016.
  */
-public class HW06_HappyTickets {
+public class HW06HappyTickets {
     public static void main(String[] args) {
 
        /* 1. Счастливые билетики. Есть билеты с номерами от 000001 до 999999.

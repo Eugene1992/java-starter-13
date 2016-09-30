@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Serezha on 26.09.2016.
  */
-public class HW05_Calculator {
+public class HW05Calculator {
     public static void main(String[] args) {
        /* 6. Написать программу, которая реализует следующий функционал:
         6.1 Пользователь вводит число в 10-ой системе счисления.

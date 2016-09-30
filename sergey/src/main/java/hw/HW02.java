@@ -29,7 +29,7 @@ package hw;
  http://www.znannya.org/?view=Java_DataTypes
  http://www.znannya.org/?view=Java_PrimitiveTypes
  */
-public class HW_02 {
+public class HW02 {
     public static void main(String[] args) {
 //ex.1
         byte b1;

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Class HW04_Interval
  */
-public class HW04_Interval {
+public class HW04Interval {
     /**
      * main() function
      */

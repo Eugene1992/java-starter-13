@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Class HW04_Calculator
  */
-public class HW04_Calculator {
+public class HW04Calculator {
     /**
      * main() function
      */
